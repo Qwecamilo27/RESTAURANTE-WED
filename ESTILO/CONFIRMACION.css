@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand";
+}
+body{
+    background: linear-gradient(#3f3232,#cd74e4);
+    color: #f0e8e8;
+    height: 100vh;
+}
+header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+header nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 20px;
+    padding-bottom: 10px;
+}
+.selected{
+    border-bottom: 3px solid #ff7f4d;
+}
+header nav a:hover{
+    border-bottom: 3px solid #ff7f4d;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 600px;
+    background-color: #f1f1f1; 
+       margin: auto; 	
+      box-shadow: 7px 13px 37px rgba(218, 216, 216, 0.5);
+}
+section p {
+    overflow: hidden;
+    max-height: 0;
+    text-align: justify;
+    font-family: "Courier New", Courier, monospace;
+    background: #e4e4e4;
+  transition: all 0.2s ease-in;
+}
+ section a {
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    padding: 10px;
+    font-family: "Courier New", Courier, monospace;
+    background-color: #212121;
+    border-bottom: 2px solid gray;
+    color: white;
+}
+  section:target p {
+    max-height: 120px;
+    padding: 10px;
+  }
+  body {
+    font-family:'Poppins', sans-serif;
+}
+.banner{
+    min-height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("fondo.jpeg") center/cover no-repeat;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    color:#ffff;
+    padding-bottom:20px;
+}
+.card-contenedor {
+    display:grid;
+    grid-template-columns: 420px 420px;
+    
+
+}
+.card-img {
+    background: url("tres.jpg") center/cover no-repeat;
+}
+.banner h2 {
+    padding-bottom:40px;
+    margin-bottom:20px;
+    
+}
+.card-contenido {
+    background:#fff;
+    height:330px;
+}
+.card-contenido h3 {
+    text-align:center;
+    color: #000;
+    padding: 25px 0 10px 0;
+    font-size: 26px;
+    font-weight:500;
+}
+.form-row{
+    display:flex;
+    width: 90%;
+    margin: 0 auto;
+}
+form select, form input {
+    display:block;
+    width:100%;
+    margin:15px 12px;
+    padding: 5px;
+    font-family:'Poppins', sans-serif;
+    outline:none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-weight:300;
+}
+form input[type = text], 
+form input[type = number], 
+form input[type = date],
+form input[type = time],
+form input::placeholder,
+select{
+color: #5f5e5e;
+}
+form input[type = submit] {
+    color: #fff;
+    background: rgb(209, 7, 175);
+    padding: 12px 0;
+    border-radius: 4px;
+    cursor:pointer;
+}
+form input[type = submit]:hover{
+    opacity: 0.9;
+}
+#reservas{
+    display:grid;
+    /* grid-template-columns: 410px 410px; */
+    grid-template-columns: 293px 293px 293px;
+    grid-gap: 15px 15px;
+}
+@media(max-width:992px){
+.card-contenedor {
+        grid-template-columns: 100%;
+ }
+ .card-img{
+    height:330px;
+ }
+
+ #reservas {
+     grid-template-columns: 100%;
+     grid-gap: 20px;
+     padding:0;
+    width:420px;
+   }
+ }
+ #administraReservas {
+     margin-top:20px;
+     text-align: center;   
+}
+#reservas {
+     padding:0;
+}

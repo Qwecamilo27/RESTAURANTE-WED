@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand";
+}
+body{
+    background: linear-gradient(#000000,#210d26);
+    color: #fff;
+    height: 100vh;
+}
+header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+header nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 20px;
+    padding-bottom: 10px;
+}
+.selected{
+    border-bottom: 3px solid #ff7f4d;
+}
+header nav a:hover{
+    border-bottom: 3px solid #ff7f4d;
+}
+section{
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    overflow: hidden;
+ }
+summary{
+    background: rgb(255, 0, 200);
+    color: : white;
+    padding : 10px;
+    cursor : pointer;
+    font-weight: bold;
+    overflow: hidden;
+    transform: scale(1.2);
+ }
+ h3{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    color: rgb(245, 9, 9);
+ }
+ 
+ p{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    color: rgb(238, 238, 8);
+ }
+ img {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 50px;
+    transition: all 0.5s;
+    object-fit: cover;
+ }
+ img :hover .child{
+    transform: scale(1.2);
+ }

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand";
+}
+body{
+    background: linear-gradient(#000000,#210d26);
+    color: #fff;
+    height: 100vh;
+}
+header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+header .logo h1{
+    letter-spacing: 5px;
+}
+header.logo h3{
+    font-weight: normal;
+    letter-spacing: 10px;
+}
+header nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 20px;
+    padding-bottom: 10px;
+}
+.selected{
+    border-bottom: 3px solid #ff7f4d;
+}
+header nav a:hover{
+    border-bottom: 3px solid #ff7f4d;
+}
+section{
+    max-width: 1100px;
+    margin: auto;
+    border: 4px solid #ff7f4d;
+    border-radius: 30px;
+    padding: 30px 0;
+}
+#home .fila{
+    display: flex;
+    padding: 20px;
+}
+#home .fila .izq{
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home .fila .izq img{
+    width: 80%;
+}
+#home .fila .der{
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#home .fila .der h2{
+    font-size: 40px;
+}
+.destacado{
+    color: rgb(236, 221, 10);
+}
+#home .fila .der p{
+    margin: 40px 0;
+    font-size: 14px;
+    color: aquamarine;
+}
+#home .fila .der .opciones{
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#home .fila .der .opciones .opciones{
+    border-bottom: 4px solid #ff7f4d;
+    padding-bottom: 6px;
+}
+#home .fila .der .contactos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#home .fila .der .contactos button{
+    border: none;
+    background-color: #ff7f4d;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#home .fila .der .contactos .redes a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 7px;
+    color: #fff;
+}
+#home .fila .der .contactos .redes a:hover{
+    color: #f5f105;
+}
+#home .fila .der .contactos .direccion{
+    color: #fff;
+    font-size: 20px;
+}
