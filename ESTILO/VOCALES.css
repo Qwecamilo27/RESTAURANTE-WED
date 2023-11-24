@@ -66,15 +66,7 @@ section{
     padding: 50px 25px;
     font-size: 26px;
 }
-.btn{
-    background-color: rgb(219, 17, 17)
-    color: #fff;
-    font-size: 60px;
-    padding: 10px 25px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-}
+
 .btn:active{
     transform: scale(.98);
 }
