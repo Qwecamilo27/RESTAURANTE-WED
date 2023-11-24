@@ -47,6 +47,32 @@ section{
     padding: 30px 0;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container-word{
+    width: 4000px;
+    background-color: #8f8c8c;
+    padding: 4rem 2rem;
+}
+.text{
+    width: 40%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #d1c2c2;
+    padding: 50px 25px;
+    font-size: 26px;
+}
 
-
-
+.btn:active{
+    transform: scale(.98);
+}
+.result{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}

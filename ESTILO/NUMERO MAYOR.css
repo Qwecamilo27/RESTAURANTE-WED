@@ -1,0 +1,74 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    background: linear-gradient(#000000,#210d26);
+    color: #fff;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+header .logo h1{
+    letter-spacing: 5px;
+}
+header.logo h3{
+    font-weight: normal;
+    letter-spacing: 10px;
+}
+header nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 20px;
+    padding-bottom: 10px;
+}
+.selected{
+    border-bottom: 3px solid #ff7f4d;
+}
+header nav a:hover{
+    border-bottom: 3px solid #ff7f4d;
+}
+
+form{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input{
+    width: 200px;
+    height: 35px;
+}
+.submit{
+    background-color: aqua;
+    outline: none;
+    border: none;
+    color: bisque;
+    font-size: 1.1rem;
+}
+.tarjeta{
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(80, 8, 224);
+    color: #e00f77;
+    border-radius: 10px;
+    font-size: 1.1rem;
+
+}
